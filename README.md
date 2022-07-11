@@ -94,3 +94,5 @@ Users should first install the following software.
 
 `ViewBS MethOverRegion --sample /path/to/aligntoREF/ViewBS/SampleX_forViewBS.tab.gz,"SampleX_CHH" --region /path/to/REFfile/target_gene.bed --prefix SampleX_target_gene --context CHH --outdir /path/to/aligntoREF/ViewBS/MethOverRegion --binNumber 20 --binLength 100`
 
+## Expected results
+![Rplot04](https://user-images.githubusercontent.com/108569109/178265151-8ca83c79-3a01-4f68-bc26-e9bc4266ed4d.png)
