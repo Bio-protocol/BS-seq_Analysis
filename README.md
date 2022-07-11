@@ -3,6 +3,9 @@
 ## Introduction
 BSseq-scripts contains scripts for bisulfite sequencing data analysis including data quality control, alignment, quantification and visualization.
 
+## Workflow
+![image](https://user-images.githubusercontent.com/108569109/178256142-6a255767-24f3-4341-b97e-bced6e03264a.png)
+
 ## Installation
 Users should first install the following software.
 
