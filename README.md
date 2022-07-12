@@ -79,5 +79,9 @@ Users need to pay attention to the file name when running the code.
 ```
 bash 2_MethOverRegion.sh
 ```
+The metagene plot drawn in R language.
+```
+Rscript 3_Metagene_plot.R
+```
 ## Expected results
 ![Rplot04](https://user-images.githubusercontent.com/108569109/178265151-8ca83c79-3a01-4f68-bc26-e9bc4266ed4d.png)
