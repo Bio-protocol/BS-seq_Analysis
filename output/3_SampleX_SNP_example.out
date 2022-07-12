@@ -1,0 +1,500 @@
+##fileformat=VCFv4.3
+##fileDate= 20220330
+##bssnperVersion=1.1
+##bssnperCommand=--fa /path/to/REFfile/REFfile.fa   --input /path/to/aligntoREF/BAM/SampleX_sorted_MarkDup_paired_clipOverlap.bam --output /path/to/aligntoREF/BSnper/SampleX_candidate.out --methcg /path/to/aligntoREF/BSnper/SampleX.cg --methchg /path/to/aligntoREF/BSnper/SampleX.chg --methchh /path/to/aligntoREF/BSnper/SampleX.chh --minhetfreq  0.1 --minhomfreq  0.85 --minquali 30 --mincover 4 --maxcover 50 --minread2 2 --errorate 0.02 --mapvalue 30
+##reference=file:///path/to/REFfile/REFfile.fa
+##Bisulfite=directional>
+##contig=<ID=,length=>
+##contig=<ID=1,length=307041717>
+##contig=<ID=2,length=244442276>
+##contig=<ID=3,length=235667834>
+##contig=<ID=4,length=246994605>
+##contig=<ID=5,length=223902240>
+##contig=<ID=6,length=174033170>
+##contig=<ID=7,length=182381542>
+##contig=<ID=8,length=181122637>
+##contig=<ID=9,length=159769782>
+##contig=<ID=10,length=150982314>
+##contig=<ID=Pt,length=140384>
+##contig=<ID=Mt,length=569630>
+##contig=<ID=B73V4_ctg150,length=1738914>
+##contig=<ID=B73V4_ctg182,length=1278389>
+##contig=<ID=B73V4_ctg10,length=992858>
+##contig=<ID=B73V4_ctg31,length=846561>
+##contig=<ID=B73V4_ctg91,length=795190>
+##contig=<ID=B73V4_ctg52,length=756422>
+##contig=<ID=B73V4_ctg142,length=739442>
+##contig=<ID=B73V4_ctg56,length=695048>
+##contig=<ID=B73V4_ctg65,length=666287>
+##contig=<ID=B73V4_ctg193,length=526805>
+##contig=<ID=B73V4_ctg75,length=516616>
+##contig=<ID=B73V4_ctg53,length=458256>
+##contig=<ID=B73V4_ctg50,length=381258>
+##contig=<ID=B73V4_ctg181,length=351693>
+##contig=<ID=B73V4_ctg140,length=344981>
+##contig=<ID=B73V4_ctg72,length=342161>
+##contig=<ID=B73V4_ctg178,length=340736>
+##contig=<ID=B73V4_ctg6,length=255484>
+##contig=<ID=B73V4_ctg129,length=254428>
+##contig=<ID=B73V4_ctg26,length=215635>
+##contig=<ID=B73V4_ctg112,length=139473>
+##contig=<ID=B73V4_ctg196,length=138544>
+##contig=<ID=B73V4_ctg109,length=134067>
+##contig=<ID=B73V4_ctg155,length=128268>
+##contig=<ID=B73V4_ctg2729,length=124116>
+##contig=<ID=B73V4_ctg60,length=117437>
+##contig=<ID=B73V4_ctg9,length=110418>
+##contig=<ID=B73V4_ctg30,length=110255>
+##contig=<ID=B73V4_ctg85,length=109991>
+##contig=<ID=B73V4_ctg33,length=108212>
+##contig=<ID=B73V4_ctg111,length=107933>
+##contig=<ID=B73V4_ctg170,length=105189>
+##contig=<ID=B73V4_ctg98,length=103641>
+##contig=<ID=B73V4_ctg102,length=101603>
+##contig=<ID=B73V4_ctg44,length=101180>
+##contig=<ID=B73V4_ctg49,length=100579>
+##contig=<ID=B73V4_ctg11,length=100537>
+##contig=<ID=B73V4_ctg84,length=98601>
+##contig=<ID=B73V4_ctg183,length=96695>
+##contig=<ID=B73V4_ctg123,length=95420>
+##contig=<ID=B73V4_ctg239,length=95256>
+##contig=<ID=B73V4_ctg16,length=94873>
+##contig=<ID=B73V4_ctg233,length=94458>
+##contig=<ID=B73V4_ctg92,length=94431>
+##contig=<ID=B73V4_ctg78,length=93364>
+##contig=<ID=B73V4_ctg62,length=92234>
+##contig=<ID=B73V4_ctg38,length=91381>
+##contig=<ID=B73V4_ctg122,length=90796>
+##contig=<ID=B73V4_ctg97,length=90109>
+##contig=<ID=B73V4_ctg20,length=89036>
+##contig=<ID=B73V4_ctg100,length=87733>
+##contig=<ID=B73V4_ctg77,length=87707>
+##contig=<ID=B73V4_ctg134,length=86441>
+##contig=<ID=B73V4_ctg128,length=86301>
+##contig=<ID=B73V4_ctg179,length=85784>
+##contig=<ID=B73V4_ctg229,length=85258>
+##contig=<ID=B73V4_ctg104,length=85134>
+##contig=<ID=B73V4_ctg14,length=84781>
+##contig=<ID=B73V4_ctg40,length=84148>
+##contig=<ID=B73V4_ctg132,length=83845>
+##contig=<ID=B73V4_ctg73,length=83778>
+##contig=<ID=B73V4_ctg133,length=83688>
+##contig=<ID=B73V4_ctg103,length=83681>
+##contig=<ID=B73V4_ctg107,length=83503>
+##contig=<ID=B73V4_ctg82,length=83476>
+##contig=<ID=B73V4_ctg5,length=83265>
+##contig=<ID=B73V4_ctg51,length=83120>
+##contig=<ID=B73V4_ctg253,length=82972>
+##contig=<ID=B73V4_ctg89,length=82793>
+##contig=<ID=B73V4_ctg203,length=82450>
+##contig=<ID=B73V4_ctg54,length=82446>
+##contig=<ID=B73V4_ctg188,length=82080>
+##contig=<ID=B73V4_ctg74,length=81536>
+##contig=<ID=B73V4_ctg247,length=81363>
+##contig=<ID=B73V4_ctg81,length=80451>
+##contig=<ID=B73V4_ctg180,length=80324>
+##contig=<ID=B73V4_ctg222,length=80070>
+##contig=<ID=B73V4_ctg125,length=79882>
+##contig=<ID=B73V4_ctg117,length=79679>
+##contig=<ID=B73V4_ctg137,length=78370>
+##contig=<ID=B73V4_ctg23,length=77423>
+##contig=<ID=B73V4_ctg159,length=77382>
+##contig=<ID=B73V4_ctg71,length=77242>
+##contig=<ID=B73V4_ctg19,length=76840>
+##contig=<ID=B73V4_ctg101,length=76596>
+##contig=<ID=B73V4_ctg245,length=76559>
+##contig=<ID=B73V4_ctg61,length=76354>
+##contig=<ID=B73V4_ctg95,length=76262>
+##contig=<ID=B73V4_ctg213,length=74799>
+##contig=<ID=B73V4_ctg35,length=74491>
+##contig=<ID=B73V4_ctg214,length=74080>
+##contig=<ID=B73V4_ctg206,length=73968>
+##contig=<ID=B73V4_ctg130,length=73561>
+##contig=<ID=B73V4_ctg79,length=73283>
+##contig=<ID=B73V4_ctg201,length=73251>
+##contig=<ID=B73V4_ctg231,length=73141>
+##contig=<ID=B73V4_ctg148,length=73006>
+##contig=<ID=B73V4_ctg48,length=72581>
+##contig=<ID=B73V4_ctg171,length=72536>
+##contig=<ID=B73V4_ctg191,length=72401>
+##contig=<ID=B73V4_ctg115,length=71809>
+##contig=<ID=B73V4_ctg7,length=71433>
+##contig=<ID=B73V4_ctg189,length=71282>
+##contig=<ID=B73V4_ctg13,length=70946>
+##contig=<ID=B73V4_ctg18,length=70926>
+##contig=<ID=B73V4_ctg17,length=70750>
+##contig=<ID=B73V4_ctg147,length=70601>
+##contig=<ID=B73V4_ctg24,length=70597>
+##contig=<ID=B73V4_ctg36,length=70486>
+##contig=<ID=B73V4_ctg235,length=70135>
+##contig=<ID=B73V4_ctg146,length=69976>
+##contig=<ID=B73V4_ctg66,length=69959>
+##contig=<ID=B73V4_ctg254,length=69595>
+##contig=<ID=B73V4_ctg175,length=69465>
+##contig=<ID=B73V4_ctg152,length=69060>
+##contig=<ID=B73V4_ctg114,length=67958>
+##contig=<ID=B73V4_ctg165,length=67904>
+##contig=<ID=B73V4_ctg42,length=67687>
+##contig=<ID=B73V4_ctg83,length=67579>
+##contig=<ID=B73V4_ctg208,length=67134>
+##contig=<ID=B73V4_ctg145,length=66893>
+##contig=<ID=B73V4_ctg41,length=66656>
+##contig=<ID=B73V4_ctg173,length=66538>
+##contig=<ID=B73V4_ctg164,length=66428>
+##contig=<ID=B73V4_ctg29,length=66393>
+##contig=<ID=B73V4_ctg4,length=66261>
+##contig=<ID=B73V4_ctg174,length=66228>
+##contig=<ID=B73V4_ctg192,length=66116>
+##contig=<ID=B73V4_ctg248,length=66018>
+##contig=<ID=B73V4_ctg28,length=65819>
+##contig=<ID=B73V4_ctg21,length=65749>
+##contig=<ID=B73V4_ctg230,length=65674>
+##contig=<ID=B73V4_ctg46,length=65659>
+##contig=<ID=B73V4_ctg153,length=65477>
+##contig=<ID=B73V4_ctg80,length=65470>
+##contig=<ID=B73V4_ctg58,length=65407>
+##contig=<ID=B73V4_ctg69,length=65268>
+##contig=<ID=B73V4_ctg225,length=64997>
+##contig=<ID=B73V4_ctg8,length=64470>
+##contig=<ID=B73V4_ctg186,length=64245>
+##contig=<ID=B73V4_ctg151,length=63917>
+##contig=<ID=B73V4_ctg121,length=63567>
+##contig=<ID=B73V4_ctg141,length=63556>
+##contig=<ID=B73V4_ctg63,length=63530>
+##contig=<ID=B73V4_ctg223,length=63290>
+##contig=<ID=B73V4_ctg250,length=63031>
+##contig=<ID=B73V4_ctg113,length=62853>
+##contig=<ID=B73V4_ctg57,length=62662>
+##contig=<ID=B73V4_ctg118,length=62538>
+##contig=<ID=B73V4_ctg220,length=62284>
+##contig=<ID=B73V4_ctg105,length=61773>
+##contig=<ID=B73V4_ctg216,length=61539>
+##contig=<ID=B73V4_ctg219,length=61449>
+##contig=<ID=B73V4_ctg238,length=61153>
+##contig=<ID=B73V4_ctg210,length=60995>
+##contig=<ID=B73V4_ctg67,length=60926>
+##contig=<ID=B73V4_ctg156,length=60365>
+##contig=<ID=B73V4_ctg199,length=60303>
+##contig=<ID=B73V4_ctg68,length=60205>
+##contig=<ID=B73V4_ctg2,length=60109>
+##contig=<ID=B73V4_ctg136,length=60070>
+##contig=<ID=B73V4_ctg3,length=59657>
+##contig=<ID=B73V4_ctg190,length=59524>
+##contig=<ID=B73V4_ctg176,length=59418>
+##contig=<ID=B73V4_ctg166,length=59352>
+##contig=<ID=B73V4_ctg217,length=58830>
+##contig=<ID=B73V4_ctg149,length=58809>
+##contig=<ID=B73V4_ctg93,length=58809>
+##contig=<ID=B73V4_ctg88,length=58721>
+##contig=<ID=B73V4_ctg154,length=58645>
+##contig=<ID=B73V4_ctg209,length=58608>
+##contig=<ID=B73V4_ctg195,length=58299>
+##contig=<ID=B73V4_ctg110,length=57973>
+##contig=<ID=B73V4_ctg108,length=57822>
+##contig=<ID=B73V4_ctg87,length=57632>
+##contig=<ID=B73V4_ctg45,length=57348>
+##contig=<ID=B73V4_ctg106,length=57130>
+##contig=<ID=B73V4_ctg135,length=57064>
+##contig=<ID=B73V4_ctg185,length=56966>
+##contig=<ID=B73V4_ctg242,length=56713>
+##contig=<ID=B73V4_ctg139,length=56161>
+##contig=<ID=B73V4_ctg215,length=55962>
+##contig=<ID=B73V4_ctg120,length=55817>
+##contig=<ID=B73V4_ctg157,length=55665>
+##contig=<ID=B73V4_ctg211,length=55641>
+##contig=<ID=B73V4_ctg94,length=55397>
+##contig=<ID=B73V4_ctg224,length=55301>
+##contig=<ID=B73V4_ctg15,length=55297>
+##contig=<ID=B73V4_ctg205,length=55164>
+##contig=<ID=B73V4_ctg168,length=54946>
+##contig=<ID=B73V4_ctg70,length=54868>
+##contig=<ID=B73V4_ctg32,length=54684>
+##contig=<ID=B73V4_ctg200,length=54466>
+##contig=<ID=B73V4_ctg236,length=54117>
+##contig=<ID=B73V4_ctg59,length=53907>
+##contig=<ID=B73V4_ctg167,length=53643>
+##contig=<ID=B73V4_ctg226,length=53614>
+##contig=<ID=B73V4_ctg144,length=53538>
+##contig=<ID=B73V4_ctg218,length=53522>
+##contig=<ID=B73V4_ctg202,length=53313>
+##contig=<ID=B73V4_ctg252,length=52549>
+##contig=<ID=B73V4_ctg232,length=52477>
+##contig=<ID=B73V4_ctg90,length=52427>
+##contig=<ID=B73V4_ctg241,length=52360>
+##contig=<ID=B73V4_ctg184,length=52129>
+##contig=<ID=B73V4_ctg143,length=51967>
+##contig=<ID=B73V4_ctg64,length=51910>
+##contig=<ID=B73V4_ctg251,length=51883>
+##contig=<ID=B73V4_ctg243,length=51365>
+##contig=<ID=B73V4_ctg163,length=50620>
+##contig=<ID=B73V4_ctg1,length=50531>
+##contig=<ID=B73V4_ctg161,length=50526>
+##contig=<ID=B73V4_ctg244,length=48860>
+##contig=<ID=B73V4_ctg37,length=48545>
+##contig=<ID=B73V4_ctg158,length=48311>
+##contig=<ID=B73V4_ctg86,length=47381>
+##contig=<ID=B73V4_ctg169,length=47089>
+##contig=<ID=B73V4_ctg246,length=47028>
+##contig=<ID=B73V4_ctg255,length=46945>
+##contig=<ID=B73V4_ctg127,length=46935>
+##contig=<ID=B73V4_ctg207,length=46344>
+##contig=<ID=B73V4_ctg198,length=46041>
+##contig=<ID=B73V4_ctg43,length=45711>
+##contig=<ID=B73V4_ctg197,length=45447>
+##contig=<ID=B73V4_ctg240,length=45166>
+##contig=<ID=B73V4_ctg221,length=44889>
+##contig=<ID=B73V4_ctg124,length=44508>
+##contig=<ID=B73V4_ctg96,length=44176>
+##contig=<ID=B73V4_ctg119,length=43926>
+##contig=<ID=B73V4_ctg212,length=43787>
+##contig=<ID=B73V4_ctg172,length=43047>
+##contig=<ID=B73V4_ctg177,length=41679>
+##contig=<ID=B73V4_ctg25,length=41524>
+##contig=<ID=B73V4_ctg194,length=41461>
+##contig=<ID=B73V4_ctg227,length=41417>
+##contig=<ID=B73V4_ctg162,length=40634>
+##contig=<ID=B73V4_ctg138,length=40594>
+##contig=<ID=B73V4_ctg131,length=40576>
+##contig=<ID=B73V4_ctg34,length=39815>
+##contig=<ID=B73V4_ctg99,length=36676>
+##contig=<ID=B73V4_ctg234,length=36081>
+##contig=<ID=B73V4_ctg12,length=34930>
+##contig=<ID=B73V4_ctg47,length=33120>
+##contig=<ID=B73V4_ctg160,length=31799>
+##contig=<ID=B73V4_ctg249,length=30460>
+##contig=<ID=B73V4_ctg39,length=29460>
+##contig=<ID=B73V4_ctg204,length=28410>
+##contig=<ID=B73V4_ctg22,length=24080>
+##contig=<ID=B73V4_ctg228,length=17651>
+##contig=<ID=B73V4_ctg27,length=11339>
+##contig=<ID=B73V4_ctg116,length=9476>
+##contig=<ID=B73V4_ctg126,length=9160>
+##contig=<ID=B73V4_ctg237,length=7104>
+##contig=<ID=B73V4_ctg187,length=6454>
+##contig=<ID=B73V4_ctg76,length=5568>
+##contig=<ID=,length=>
+##contig=<ID=,length=>
+##ALT=<ID=*,Description="Represents allele(s) other than observed.">
+##INFO=<ID=INDEL,Number=0,Type=Flag,Description="Indicates that the variant is an INDEL.">
+##INFO=<ID=IDV,Number=1,Type=Integer,Description="Maximum number of reads supporting an indel">
+##INFO=<ID=IMF,Number=1,Type=Float,Description="Maximum fraction of reads supporting an indel">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Raw read depth">
+##INFO=<ID=AD,Number=R,Type=Integer,Description="Total allelic depths">
+##INFO=<ID=ADF,Number=R,Type=Integer,Description="Total allelic depths on the forward strand">
+##INFO=<ID=ADR,Number=R,Type=Integer,Description="Total allelic depths on the reverse strand">
+##INFO=<ID=MQ0F,Number=1,Type=Float,Description="Fraction of MQ0 reads (smaller is better)">
+##FILTER=<ID=Low,Description="Low Quality">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=AC,Number=A,Type=Integer,Description="Allele count in genotypes for each ALT allele, in the same order as listed">
+##INFO=<ID=AN,Number=1,Type=Integer,Description="Total number of alleles in called genotypes">
+##INFO=<ID=DP4,Number=4,Type=Integer,Description="Number of high-quality ref-forward , ref-reverse, alt-forward and alt-reverse bases">
+##INFO=<ID=MQ,Number=1,Type=Integer,Description="Average mapping quality">
+##FORMAT=<ID=PL,Number=G,Type=Integer,Description="List of Phred-scaled genotype likelihoods">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Number of high-quality bases">
+##FORMAT=<ID=SP,Number=1,Type=Integer,Description="Phred-scaled strand bias P-value">
+##FORMAT=<ID=AD,Number=R,Type=Integer,Description="Allelic depths">
+##FORMAT=<ID=ADF,Number=R,Type=Integer,Description="Allelic depths on the forward strand">
+##FORMAT=<ID=ADR,Number=R,Type=Integer,Description="Allelic depths on the reverse strand">
+##FORMAT=<ID=BSD,Number=8,Type=Integer,Description="Depth, ATCG in watson strand and crick strand">
+##FORMAT=<ID=BSQ,Number=8,Type=Integer,Description="Avarage Base Quality, ATCG in watson strand and crick strand">
+##FORMAT=<ID=ALFR,Number=R,Type=Float,Description="Allele frequency">
+#CHROM  POS     ID      REF     ALT     QUAL    FILTER  INFO    FORMAT  /public/home/jxu/wgbsBM/peptest/aligntoREF/BAM/SampleX_sorted_MarkDup_paired_clipOverlap.bam
+1       419086  .       C       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:38,0,0,0,0,0,0,0:0.000,1.000
+1       464668  .       A       G       6       Low     DP=2;ADF=1,1;ADR=0,0;AD=1,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   0/1:2:1,1:0,0:1,1:1,0,0,1,0,0,0,0:38,0,0,38,0,0,0,0:0.500,0.500
+1       510333  .       A       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,37,0,0,0,0:0.000,1.000
+1       707629  .       G       T       4       Low     DP=1;ADF=0,0;ADR=0,1;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,0:0,1:0,1:0,0,0,0,0,1,0,0:0,0,0,0,0,38,0,0:0.000,1.000
+1       1044436 .       A       C       4       Low     DP=1;ADF=0,0;ADR=0,1;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,0:0,1:0,1:0,0,0,0,0,0,1,0:0,0,0,0,0,0,38,0:0.000,1.000
+1       1322201 .       T       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,38,0,0,0,0:0.000,1.000
+1       1560194 .       T       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:38,0,0,0,0,0,0,0:0.000,1.000
+1       1624343 .       T       G       4       Low     DP=2;ADF=1,1;ADR=0,0;AD=1,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:2:1,1:0,0:1,1:0,1,0,1,0,0,0,0:0,38,0,38,0,0,0,0:0.500,0.500
+1       1757113 .       C       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:31,0,0,0,0,0,0,0:0.000,1.000
+1       1771141 .       T       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,30,0,0,0,0:0.000,1.000
+1       2264027 .       A       C       4       Low     DP=1;ADF=0,0;ADR=0,1;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,0:0,1:0,1:0,0,0,0,0,0,1,0:0,0,0,0,0,0,38,0:0.000,1.000
+1       3173693 .       A       T       4       Low     DP=1;ADF=0,0;ADR=0,1;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,0:0,1:0,1:0,0,0,0,0,1,0,0:0,0,0,0,0,36,0,0:0.000,1.000
+1       3531779 .       G       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:36,0,0,0,0,0,0,0:0.000,1.000
+1       3772898 .       G       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:38,0,0,0,0,0,0,0:0.000,1.000
+1       4125620 .       C       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,38,0,0,0,0:0.000,1.000
+1       4587093 .       A       G       4       Low     DP=3;ADF=2,1;ADR=0,0;AD=2,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   0/1:3:2,1:0,0:2,1:2,0,0,1,8,0,0,0:38,0,0,33,38,0,0,0:0.667,0.333
+1       4711552 .       A       G       4       Low     DP=3;ADF=0,1;ADR=0,1;AD=0,2;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:3:0,1:0,1:0,2:0,0,0,1,1,0,0,0:0,0,0,38,38,0,0,0:0.000,0.667
+1       4808096 .       T       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:36,0,0,0,0,0,0,0:0.000,1.000
+1       5575416 .       A       G       4       Low     DP=3;ADF=2,1;ADR=0,0;AD=2,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   0/1:3:2,1:0,0:2,1:2,0,0,1,0,0,0,0:38,0,0,38,0,0,0,0:0.667,0.333
+1       5718935 .       C       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,38,0,0,0,0:0.000,1.000
+1       5720188 .       T       C       4       Low     DP=3;ADF=0,0;ADR=2,1;AD=2,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   0/1:3:0,0:2,1:2,1:0,0,0,0,0,2,1,0:0,0,0,0,0,38,33,0:0.667,0.333
+1       6215193 .       T       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:37,0,0,0,0,0,0,0:0.000,1.000
+1       6234486 .       G       A       6       Low     DP=2;ADF=1,1;ADR=0,0;AD=1,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   0/1:2:1,1:0,0:1,1:1,0,0,1,0,0,0,0:38,0,0,38,0,0,0,0:0.500,0.500
+1       6372395 .       C       G       4       Low     DP=1;ADF=0,0;ADR=0,1;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,0:0,1:0,1:0,0,0,0,0,0,0,1:0,0,0,0,0,0,0,34:0.000,1.000
+1       7097474 .       A       G       4       Low     DP=7;ADF=0,1;ADR=0,3;AD=0,4;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:7:0,1:0,3:0,4:0,0,0,1,3,0,0,0:0,0,0,37,38,0,0,0:0.000,0.571
+1       7356830 .       A       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,38,0,0,0,0:0.000,1.000
+1       7393818 .       A       C       4       Low     DP=7;ADF=0,0;ADR=6,1;AD=6,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:7:0,0:6,1:6,1:0,0,0,0,6,0,1,0:0,0,0,0,37,0,38,0:0.857,0.143
+1       7564532 .       T       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:36,0,0,0,0,0,0,0:0.000,1.000
+1       7998367 .       G       A       6       Low     DP=2;ADF=1,1;ADR=0,0;AD=1,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   0/1:2:1,1:0,0:1,1:1,0,0,1,0,0,0,0:37,0,0,38,0,0,0,0:0.500,0.500
+1       8164171 .       G       T       4       Low     DP=1;ADF=0,0;ADR=0,1;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,0:0,1:0,1:0,0,0,0,0,1,0,0:0,0,0,0,0,34,0,0:0.000,1.000
+1       8557758 .       T       C       4       Low     DP=3;ADF=0,0;ADR=2,1;AD=2,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   0/1:3:0,0:2,1:2,1:0,9,0,0,0,2,1,0:0,37,0,0,0,38,38,0:0.667,0.333
+1       9177925 .       T       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:38,0,0,0,0,0,0,0:0.000,1.000
+1       9186204 .       T       G       4       Low     DP=1;ADF=0,0;ADR=0,1;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,0:0,1:0,1:0,0,0,0,0,0,0,1:0,0,0,0,0,0,0,38:0.000,1.000
+1       10651248        .       C       T       5       Low     DP=2;ADF=0,0;ADR=1,1;AD=1,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   0/1:2:0,0:1,1:1,1:0,0,0,0,0,1,1,0:0,0,0,0,0,33,37,0:0.500,0.500
+1       11636156        .       T       C       4       Low     DP=3;ADF=0,0;ADR=2,1;AD=2,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   0/1:3:0,0:2,1:2,1:0,0,0,0,0,2,1,0:0,0,0,0,0,38,31,0:0.667,0.333
+1       11662335        .       T       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,38,0,0,0,0:0.000,1.000
+1       11673373        .       G       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:36,0,0,0,0,0,0,0:0.000,1.000
+1       12271963        .       T       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,38,0,0,0,0:0.000,1.000
+1       12462411        .       G       T       4       Low     DP=1;ADF=0,0;ADR=0,1;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,0:0,1:0,1:0,0,0,0,0,1,0,0:0,0,0,0,0,33,0,0:0.000,1.000
+1       13284622        .       G       C       4       Low     DP=1;ADF=0,0;ADR=0,1;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,0:0,1:0,1:0,0,0,0,0,0,1,0:0,0,0,0,0,0,38,0:0.000,1.000
+1       13453652        .       A       C       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,1,0,0,0,0,0:0,0,38,0,0,0,0,0:0.000,1.000
+1       13595066        .       T       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:31,0,0,0,0,0,0,0:0.000,1.000
+1       13601249        .       A       T       4       Low     DP=2;ADF=0,0;ADR=1,1;AD=1,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:2:0,0:1,1:1,1:0,0,0,0,1,1,0,0:0,0,0,0,38,35,0,0:0.500,0.500
+1       14126438        .       A       G       4       Low     DP=3;ADF=2,1;ADR=0,0;AD=2,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   0/1:3:2,1:0,0:2,1:2,0,0,1,7,0,0,0:38,0,0,36,38,0,0,0:0.667,0.333
+1       14241853        .       T       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,38,0,0,0,0:0.000,1.000
+1       15221919        .       A       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,38,0,0,0,0:0.000,1.000
+1       15738383        .       C       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,37,0,0,0,0:0.000,1.000
+1       16232403        .       C       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,35,0,0,0,0:0.000,1.000
+1       16362448        .       G       T       4       Low     DP=1;ADF=0,0;ADR=0,1;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,0:0,1:0,1:0,0,0,0,0,1,0,0:0,0,0,0,0,37,0,0:0.000,1.000
+1       16623242        .       A       T       4       Low     DP=1;ADF=0,0;ADR=0,1;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,0:0,1:0,1:0,0,0,0,0,1,0,0:0,0,0,0,0,34,0,0:0.000,1.000
+1       16819273        .       C       T       4       Low     DP=1;ADF=0,0;ADR=0,1;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,0:0,1:0,1:0,0,0,0,0,1,0,0:0,0,0,0,0,38,0,0:0.000,1.000
+1       16844942        .       T       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,33,0,0,0,0:0.000,1.000
+1       17156460        .       A       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,33,0,0,0,0:0.000,1.000
+1       17198507        .       T       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:37,0,0,0,0,0,0,0:0.000,1.000
+1       17740534        .       A       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,38,0,0,0,0:0.000,1.000
+1       17748590        .       G       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:38,0,0,0,0,0,0,0:0.000,1.000
+1       17923063        .       T       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,38,0,0,0,0:0.000,1.000
+1       18139265        .       T       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,37,0,0,0,0:0.000,1.000
+1       18345446        .       G       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:33,0,0,0,0,0,0,0:0.000,1.000
+1       18378421        .       T       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:38,0,0,0,0,0,0,0:0.000,1.000
+1       18459274        .       T       G       4       Low     DP=2;ADF=1,1;ADR=0,0;AD=1,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:2:1,1:0,0:1,1:0,1,0,1,0,0,0,0:0,38,0,33,0,0,0,0:0.500,0.500
+1       18535725        .       A       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,37,0,0,0,0:0.000,1.000
+1       18724362        .       A       C       4       Low     DP=2;ADF=0,1;ADR=1,0;AD=1,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:2:0,1:1,0:1,1:0,0,1,0,1,0,0,0:0,0,38,0,38,0,0,0:0.500,0.500
+1       18744169        .       C       T       4       Low     DP=1;ADF=0,0;ADR=0,1;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,0:0,1:0,1:0,0,0,0,0,1,0,0:0,0,0,0,0,38,0,0:0.000,1.000
+1       19186324        .       C       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,37,0,0,0,0:0.000,1.000
+1       19333294        .       A       C       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,1,0,0,0,0,0:0,0,31,0,0,0,0,0:0.000,1.000
+1       19586022        .       T       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,31,0,0,0,0:0.000,1.000
+1       19889573        .       A       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,33,0,0,0,0:0.000,1.000
+1       20537634        .       A       G       4       Low     DP=3;ADF=2,1;ADR=0,0;AD=2,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   0/1:3:2,1:0,0:2,1:2,0,0,1,1,0,0,0:38,0,0,36,38,0,0,0:0.667,0.333
+1       20605315        .       G       T       4       Low     DP=1;ADF=0,0;ADR=0,1;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,0:0,1:0,1:0,0,0,0,0,1,0,0:0,0,0,0,0,38,0,0:0.000,1.000
+1       20941576        .       C       T       4       Low     DP=1;ADF=0,0;ADR=0,1;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,0:0,1:0,1:0,0,0,0,0,1,0,0:0,0,0,0,0,34,0,0:0.000,1.000
+1       21035331        .       G       T       4       Low     DP=1;ADF=0,0;ADR=0,1;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,0:0,1:0,1:0,0,0,0,0,1,0,0:0,0,0,0,0,38,0,0:0.000,1.000
+1       21110164        .       C       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,31,0,0,0,0:0.000,1.000
+1       21187227        .       T       C       4       Low     DP=3;ADF=0,0;ADR=2,1;AD=2,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   0/1:3:0,0:2,1:2,1:0,3,0,0,0,2,1,0:0,37,0,0,0,38,33,0:0.667,0.333
+1       21251052        .       T       G       4       Low     DP=1;ADF=0,0;ADR=0,1;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,0:0,1:0,1:0,0,0,0,0,0,0,1:0,0,0,0,0,0,0,38:0.000,1.000
+1       21408247        .       C       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:37,0,0,0,0,0,0,0:0.000,1.000
+1       21412193        .       G       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:38,0,0,0,0,0,0,0:0.000,1.000
+1       21862294        .       A       C       4       Low     DP=7;ADF=0,0;ADR=6,1;AD=6,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:7:0,0:6,1:6,1:0,0,0,0,6,0,1,0:0,0,0,0,38,0,35,0:0.857,0.143
+1       21903989        .       A       G       4       Low     DP=3;ADF=2,1;ADR=0,0;AD=2,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   0/1:3:2,1:0,0:2,1:2,0,0,1,1,0,0,0:38,0,0,38,33,0,0,0:0.667,0.333
+1       22275485        .       T       A       4       Low     DP=2;ADF=1,1;ADR=0,0;AD=1,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:2:1,1:0,0:1,1:1,1,0,0,0,0,0,0:38,33,0,0,0,0,0,0:0.500,0.500
+1       22275790        .       C       T       4       Low     DP=1;ADF=0,0;ADR=0,1;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,0:0,1:0,1:0,0,0,0,0,1,0,0:0,0,0,0,0,38,0,0:0.000,1.000
+1       22596170        .       A       G       4       Low     DP=3;ADF=0,1;ADR=0,1;AD=0,2;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:3:0,1:0,1:0,2:0,0,0,1,1,0,0,0:0,0,0,38,38,0,0,0:0.000,0.667
+1       23006729        .       G       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:38,0,0,0,0,0,0,0:0.000,1.000
+1       23382938        .       A       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,33,0,0,0,0:0.000,1.000
+1       23438121        .       C       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:38,0,0,0,0,0,0,0:0.000,1.000
+1       23452402        .       G       C       4       Low     DP=1;ADF=0,0;ADR=0,1;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,0:0,1:0,1:0,0,0,0,0,0,1,0:0,0,0,0,0,0,31,0:0.000,1.000
+1       23552328        .       C       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:38,0,0,0,0,0,0,0:0.000,1.000
+1       23727868        .       T       G       4       Low     DP=5;ADF=4,1;ADR=0,0;AD=4,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:5:4,1:0,0:4,1:0,4,0,1,0,0,0,0:0,36,0,38,0,0,0,0:0.800,0.200
+1       24557844        .       C       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:33,0,0,0,0,0,0,0:0.000,1.000
+1       25069059        .       A       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,33,0,0,0,0:0.000,1.000
+1       25248866        .       G       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:38,0,0,0,0,0,0,0:0.000,1.000
+1       25700379        .       G       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:38,0,0,0,0,0,0,0:0.000,1.000
+1       25724136        .       T       C       4       Low     DP=1;ADF=0,0;ADR=0,1;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,0:0,1:0,1:0,0,0,0,0,0,1,0:0,0,0,0,0,0,36,0:0.000,1.000
+1       26039301        .       G       C       4       Low     DP=1;ADF=0,0;ADR=0,1;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,0:0,1:0,1:0,0,0,0,0,0,1,0:0,0,0,0,0,0,38,0:0.000,1.000
+1       26384299        .       T       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,38,0,0,0,0:0.000,1.000
+1       27002639        .       A       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,34,0,0,0,0:0.000,1.000
+1       27347708        .       T       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:38,0,0,0,0,0,0,0:0.000,1.000
+1       28098991        .       C       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:38,0,0,0,0,0,0,0:0.000,1.000
+1       28929730        .       G       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:38,0,0,0,0,0,0,0:0.000,1.000
+1       29427615        .       G       T       4       Low     DP=1;ADF=0,0;ADR=0,1;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,0:0,1:0,1:0,0,0,0,0,1,0,0:0,0,0,0,0,38,0,0:0.000,1.000
+1       29838914        .       C       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:38,0,0,0,0,0,0,0:0.000,1.000
+1       29870900        .       C       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,33,0,0,0,0:0.000,1.000
+1       30487861        .       C       T       6       Low     DP=1;ADF=0,0;ADR=0,1;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   0/1:1:0,0:0,1:0,1:0,0,1,0,0,1,0,0:0,0,38,0,0,35,0,0:0.000,1.000
+1       30665349        .       G       A       6       Low     DP=2;ADF=1,1;ADR=0,0;AD=1,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   0/1:2:1,1:0,0:1,1:1,0,0,1,0,0,0,0:38,0,0,38,0,0,0,0:0.500,0.500
+1       30833935        .       T       A       4       Low     DP=2;ADF=1,1;ADR=0,0;AD=1,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:2:1,1:0,0:1,1:1,1,0,0,0,0,0,0:38,38,0,0,0,0,0,0:0.500,0.500
+1       31218735        .       G       C       4       Low     DP=1;ADF=0,0;ADR=0,1;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,0:0,1:0,1:0,0,0,0,0,0,1,0:0,0,0,0,0,0,38,0:0.000,1.000
+1       31219121        .       G       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:38,0,0,0,0,0,0,0:0.000,1.000
+1       31247580        .       G       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:33,0,0,0,0,0,0,0:0.000,1.000
+1       31341389        .       A       C       4       Low     DP=4;ADF=0,0;ADR=3,1;AD=3,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:4:0,0:3,1:3,1:0,0,0,0,3,0,1,0:0,0,0,0,38,0,38,0:0.750,0.250
+1       31445281        .       T       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,38,0,0,0,0:0.000,1.000
+1       31936770        .       T       C       4       Low     DP=1;ADF=0,0;ADR=0,1;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,0:0,1:0,1:0,0,0,0,0,0,1,0:0,0,0,0,0,0,38,0:0.000,1.000
+1       32062762        .       A       T       4       Low     DP=1;ADF=0,0;ADR=0,1;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,0:0,1:0,1:0,0,0,0,0,1,0,0:0,0,0,0,0,38,0,0:0.000,1.000
+1       32653830        .       A       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,38,0,0,0,0:0.000,1.000
+1       32681869        .       G       A       4       Low     DP=2;ADF=1,1;ADR=0,0;AD=1,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   0/1:2:1,1:0,0:1,1:1,0,0,1,0,0,0,1:36,0,0,38,0,0,0,38:0.500,0.500
+1       33485682        .       C       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,36,0,0,0,0:0.000,1.000
+1       33680040        .       T       A       4       Low     DP=2;ADF=1,1;ADR=0,0;AD=1,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:2:1,1:0,0:1,1:1,1,0,0,0,0,0,0:34,38,0,0,0,0,0,0:0.500,0.500
+1       34623058        .       C       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:38,0,0,0,0,0,0,0:0.000,1.000
+1       34762944        .       A       C       4       Low     DP=1;ADF=0,0;ADR=0,1;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,0:0,1:0,1:0,0,0,0,0,0,1,0:0,0,0,0,0,0,38,0:0.000,1.000
+1       34781732        .       T       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,31,0,0,0,0:0.000,1.000
+1       35758961        .       G       A       6       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   0/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,1:38,0,0,0,0,0,0,38:0.000,1.000
+1       36587101        .       A       G       4       Low     DP=3;ADF=0,1;ADR=0,1;AD=0,2;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:3:0,1:0,1:0,2:0,0,0,1,1,0,0,0:0,0,0,38,38,0,0,0:0.000,0.667
+1       36716006        .       G       C       4       Low     DP=1;ADF=0,0;ADR=0,1;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,0:0,1:0,1:0,0,0,0,0,0,1,0:0,0,0,0,0,0,38,0:0.000,1.000
+1       36729098        .       T       C       4       Low     DP=1;ADF=0,0;ADR=0,1;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,0:0,1:0,1:0,0,0,0,0,0,1,0:0,0,0,0,0,0,34,0:0.000,1.000
+1       37097844        .       C       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:35,0,0,0,0,0,0,0:0.000,1.000
+1       37341627        .       T       A       4       Low     DP=3;ADF=2,1;ADR=0,0;AD=2,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:3:2,1:0,0:2,1:1,2,0,0,0,0,0,0:38,36,0,0,0,0,0,0:0.667,0.333
+1       37348143        .       G       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:38,0,0,0,0,0,0,0:0.000,1.000
+1       37378657        .       T       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,36,0,0,0,0:0.000,1.000
+1       37518464        .       A       T       4       Low     DP=1;ADF=0,0;ADR=0,1;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,0:0,1:0,1:0,0,0,0,0,1,0,0:0,0,0,0,0,35,0,0:0.000,1.000
+1       37537154        .       A       G       6       Low     DP=2;ADF=1,1;ADR=0,0;AD=1,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   0/1:2:1,1:0,0:1,1:1,0,0,1,1,0,0,0:38,0,0,38,38,0,0,0:0.500,0.500
+1       37603230        .       C       G       4       Low     DP=1;ADF=0,0;ADR=0,1;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,0:0,1:0,1:0,0,0,0,0,0,0,1:0,0,0,0,0,0,0,36:0.000,1.000
+1       37744488        .       G       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:37,0,0,0,0,0,0,0:0.000,1.000
+1       38848092        .       A       G       6       Low     DP=2;ADF=1,1;ADR=0,0;AD=1,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   0/1:2:1,1:0,0:1,1:1,0,0,1,0,0,0,0:38,0,0,38,0,0,0,0:0.500,0.500
+1       38851461        .       A       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,38,0,0,0,0:0.000,1.000
+1       39235384        .       C       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,38,0,0,0,0:0.000,1.000
+1       39578905        .       C       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:38,0,0,0,0,0,0,0:0.000,1.000
+1       39724736        .       T       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:38,0,0,0,0,0,0,0:0.000,1.000
+1       39741796        .       T       C       4       PASS    DP=21;ADF=0,20;ADR=0,1;AD=0,21; GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:21:0,20:0,1:0,21:0,20,0,0,0,0,1,0:0,38,0,0,0,0,32,0:0.000,1.000
+1       39796365        .       G       C       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,1,0,0,0,0,0:0,0,35,0,0,0,0,0:0.000,1.000
+1       39926296        .       A       G       4       Low     DP=7;ADF=0,1;ADR=0,3;AD=0,4;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:7:0,1:0,3:0,4:0,0,0,1,3,0,0,0:0,0,0,38,36,0,0,0:0.000,0.571
+1       40026935        .       T       A       4       Low     DP=5;ADF=4,1;ADR=0,0;AD=4,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:5:4,1:0,0:4,1:1,4,0,0,0,0,0,0:38,37,0,0,0,0,0,0:0.800,0.200
+1       40112468        .       C       G       4       Low     DP=1;ADF=0,0;ADR=0,1;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,0:0,1:0,1:0,0,0,0,0,0,0,1:0,0,0,0,0,0,0,38:0.000,1.000
+1       40237140        .       A       C       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,1,0,0,0,0,0:0,0,34,0,0,0,0,0:0.000,1.000
+1       40414924        .       C       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,38,0,0,0,0:0.000,1.000
+1       40481747        .       T       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,38,0,0,0,0:0.000,1.000
+1       40518061        .       C       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:33,0,0,0,0,0,0,0:0.000,1.000
+1       40993292        .       T       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:37,0,0,0,0,0,0,0:0.000,1.000
+1       41161888        .       T       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:31,0,0,0,0,0,0,0:0.000,1.000
+1       41706435        .       G       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:35,0,0,0,0,0,0,0:0.000,1.000
+1       41802335        .       C       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,38,0,0,0,0:0.000,1.000
+1       42058591        .       T       C       4       Low     DP=1;ADF=0,0;ADR=0,1;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,0:0,1:0,1:0,0,0,0,0,0,1,0:0,0,0,0,0,0,38,0:0.000,1.000
+1       42233830        .       T       G       4       Low     DP=2;ADF=1,1;ADR=0,0;AD=1,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:2:1,1:0,0:1,1:0,1,0,1,0,0,0,0:0,36,0,31,0,0,0,0:0.500,0.500
+1       42796835        .       G       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:36,0,0,0,0,0,0,0:0.000,1.000
+1       43292638        .       A       G       4       Low     DP=2;ADF=1,1;ADR=0,0;AD=1,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   0/1:2:1,1:0,0:1,1:1,0,0,1,8,0,0,0:36,0,0,38,38,0,0,0:0.500,0.500
+1       44177002        .       T       C       4       Low     DP=3;ADF=0,0;ADR=2,1;AD=2,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   0/1:3:0,0:2,1:2,1:0,2,0,0,0,2,1,0:0,38,0,0,0,38,37,0:0.667,0.333
+1       44421807        .       A       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,33,0,0,0,0:0.000,1.000
+1       44512491        .       A       T       4       Low     DP=5;ADF=0,0;ADR=4,1;AD=4,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:5:0,0:4,1:4,1:0,0,0,0,4,1,0,0:0,0,0,0,38,38,0,0:0.800,0.200
+1       44682308        .       G       C       4       Low     DP=1;ADF=0,0;ADR=0,1;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,0:0,1:0,1:0,0,0,0,0,0,1,0:0,0,0,0,0,0,34,0:0.000,1.000
+1       44839284        .       G       C       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,1,0,0,0,0,0:0,0,38,0,0,0,0,0:0.000,1.000
+1       44841749        .       T       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,38,0,0,0,0:0.000,1.000
+1       45326168        .       T       G       4       Low     DP=1;ADF=0,0;ADR=0,1;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,0:0,1:0,1:0,0,0,0,0,0,0,1:0,0,0,0,0,0,0,38:0.000,1.000
+1       45731132        .       A       G       6       Low     DP=2;ADF=1,1;ADR=0,0;AD=1,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   0/1:2:1,1:0,0:1,1:1,0,0,1,3,0,0,0:38,0,0,31,38,0,0,0:0.500,0.500
+1       46238188        .       A       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,33,0,0,0,0:0.000,1.000
+1       46490629        .       G       T       4       Low     DP=1;ADF=0,0;ADR=0,1;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,0:0,1:0,1:0,0,0,0,0,1,0,0:0,0,0,0,0,38,0,0:0.000,1.000
+1       46731304        .       T       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:38,0,0,0,0,0,0,0:0.000,1.000
+1       46965054        .       A       T       4       Low     DP=4;ADF=0,0;ADR=3,1;AD=3,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:4:0,0:3,1:3,1:0,0,0,0,3,1,0,0:0,0,0,0,38,38,0,0:0.750,0.250
+1       47053331        .       G       A       6       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   0/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,1:38,0,0,0,0,0,0,38:0.000,1.000
+1       47083744        .       C       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:38,0,0,0,0,0,0,0:0.000,1.000
+1       47091241        .       T       C       4       Low     DP=1;ADF=0,0;ADR=0,1;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,0:0,1:0,1:0,0,0,0,0,0,1,0:0,0,0,0,0,0,34,0:0.000,1.000
+1       47515793        .       A       T       4       Low     DP=1;ADF=0,0;ADR=0,1;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,0:0,1:0,1:0,0,0,0,0,1,0,0:0,0,0,0,0,35,0,0:0.000,1.000
+1       47847964        .       A       C       4       Low     DP=1;ADF=0,0;ADR=0,1;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,0:0,1:0,1:0,0,0,0,0,0,1,0:0,0,0,0,0,0,38,0:0.000,1.000
+1       48293177        .       A       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,38,0,0,0,0:0.000,1.000
+1       48746665        .       G       A       6       Low     DP=2;ADF=1,1;ADR=0,0;AD=1,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   0/1:2:1,1:0,0:1,1:1,0,0,1,0,0,0,0:38,0,0,38,0,0,0,0:0.500,0.500
+1       48912088        .       T       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:38,0,0,0,0,0,0,0:0.000,1.000
+1       49059231        .       C       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,38,0,0,0,0:0.000,1.000
+1       49407540        .       T       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:38,0,0,0,0,0,0,0:0.000,1.000
+1       49494160        .       A       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,35,0,0,0,0:0.000,1.000
+1       49915392        .       A       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,38,0,0,0,0:0.000,1.000
+1       50146337        .       T       C       6       Low     DP=2;ADF=0,0;ADR=1,1;AD=1,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   0/1:2:0,0:1,1:1,1:0,5,0,0,0,1,1,0:0,38,0,0,0,38,38,0:0.500,0.500
+1       50525479        .       A       C       4       Low     DP=2;ADF=0,0;ADR=1,1;AD=1,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:2:0,0:1,1:1,1:0,0,0,0,1,0,1,0:0,0,0,0,38,0,38,0:0.500,0.500
+1       52496592        .       G       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:38,0,0,0,0,0,0,0:0.000,1.000
+1       52632308        .       G       C       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,1,0,0,0,0,0:0,0,38,0,0,0,0,0:0.000,1.000
+1       52643586        .       T       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:33,0,0,0,0,0,0,0:0.000,1.000
+1       52677542        .       A       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,33,0,0,0,0:0.000,1.000
+1       53108524        .       A       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,38,0,0,0,0:0.000,1.000
+1       53290717        .       T       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:38,0,0,0,0,0,0,0:0.000,1.000
+1       53599177        .       G       T       4       Low     DP=1;ADF=0,0;ADR=0,1;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,0:0,1:0,1:0,0,0,0,0,1,0,0:0,0,0,0,0,38,0,0:0.000,1.000
+1       53609020        .       A       C       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,1,0,0,0,0,0:0,0,35,0,0,0,0,0:0.000,1.000
+1       53735237        .       A       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,38,0,0,0,0:0.000,1.000
+1       53756916        .       A       T       4       Low     DP=2;ADF=0,0;ADR=1,1;AD=1,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:2:0,0:1,1:1,1:0,0,0,0,1,1,0,0:0,0,0,0,38,36,0,0:0.500,0.500
+1       54014605        .       G       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:38,0,0,0,0,0,0,0:0.000,1.000
+1       54041447        .       A       C       4       Low     DP=1;ADF=0,0;ADR=0,1;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,0:0,1:0,1:0,0,0,0,0,0,1,0:0,0,0,0,0,0,37,0:0.000,1.000
+1       54252723        .       G       A       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:1,0,0,0,0,0,0,0:34,0,0,0,0,0,0,0:0.000,1.000
+1       54583818        .       G       T       4       Low     DP=1;ADF=0,0;ADR=0,1;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,0:0,1:0,1:0,0,0,0,0,1,0,0:0,0,0,0,0,31,0,0:0.000,1.000
+1       55204378        .       G       C       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,1,0,0,0,0,0:0,0,35,0,0,0,0,0:0.000,1.000
+1       55549665        .       T       C       6       Low     DP=2;ADF=0,0;ADR=1,1;AD=1,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   0/1:2:0,0:1,1:1,1:0,0,0,0,0,1,1,0:0,0,0,0,0,38,35,0:0.500,0.500
+1       55791092        .       A       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,33,0,0,0,0:0.000,1.000
+1       56047557        .       A       C       4       Low     DP=1;ADF=0,0;ADR=0,1;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,0:0,1:0,1:0,0,0,0,0,0,1,0:0,0,0,0,0,0,31,0:0.000,1.000
+1       57045898        .       T       C       4       Low     DP=1;ADF=0,0;ADR=0,1;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,0:0,1:0,1:0,0,0,0,0,0,1,0:0,0,0,0,0,0,38,0:0.000,1.000
+1       57454660        .       C       G       4       Low     DP=1;ADF=0,1;ADR=0,0;AD=0,1;    GT:DP:ADF:ADR:AD:BSD:BSQ:ALFR   1/1:1:0,1:0,0:0,1:0,0,0,1,0,0,0,0:0,0,0,38,0,0,0,0:0.000,1.000
