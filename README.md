@@ -4,13 +4,13 @@
 BS-seq_Analysis contains scripts for bisulfite sequencing data analysis including data quality control, alignment, quantification and visualization.
 
 ## Workflow
-![image](https://user-images.githubusercontent.com/108569109/178256142-6a255767-24f3-4341-b97e-bced6e03264a.png)
+![Abstract1](https://user-images.githubusercontent.com/108569109/212268254-fbf19d05-ee8a-44e2-93fd-67d609ef3e05.png)
 
 ## Installation
 Users should first install the following software.
 
 1.	Trim Galore (https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/) 
-2.	BSMAP (Xi and Li, 2009; https://code.google.com/archive/p/bsmap/)
+2.	BSMAP (Xi and Li, 2009; https://anaconda.org/bioconda/bsmap/files)
 3.	Picard (https://broadinstitute.github.io/picard/)
 4.	Bamtools (Barnett et al., 2011; https://github.com/pezmaster31/bamtools)
 5.	bamUtil (https://github.com/statgen/bamUtil)
@@ -19,9 +19,18 @@ Users should first install the following software.
 8.	ViewBS (Huang et al., 2018; https://github.com/xie186/ViewBS)
 
 ## Reference data
+### Download raw data of B73 inbred line
 ```
 wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/SRR850328/SRR850328_1.fastq.gz  
-wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/SRR850328/SRR850328_2.fastq.gz  
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/SRR850328/SRR850328_2.fastq.gz
+```
+### Download raw data of Mo17 inbred line
+```
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/SRR850332/SRR850332_1.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/SRR850332/SRR850332_2.fastq.gz
+```
+### Download reference genome sequence
+```
 wget http://ftp.ensemblgenomes.org/pub/plants/release-45/fasta/zea_mays/dna/Zea_mays.B73_RefGen_v4.dna.toplevel.fa.gz
 ```
 
@@ -61,7 +70,7 @@ bamUtil/bin/bam clipOverlap --in /path/to/aligntoREF/BAM/SampleX_sorted_MarkDup_
 
 ### Calculate the conversion efficiency of unmethylated cytosine
 ```
-awk -F "\t" '{if($1=="Pt") print}' /path/to/aligntoREF/BSMAPratio/SampleX | awk '{sum1 += $7; sum2 +=$8}END{print sum1"\t"sum2"\t"100-sum1/sum2\*100}' > /path/to/aligntoREF/ConversionRate/SampleX_conversion_rate.txt
+awk -F "\t" '{if($1=="Pt") print}' /path/to/aligntoREF/BSMAPratio/SampleX | awk '{sum1 += $7; sum2 +=$8}END{print sum1"\t"sum2"\t"100-sum1/sum2*100}' > /path/to/aligntoREF/ConversionRate/SampleX_conversion_rate.txt
 ```
 
 ### Detect single nucleotide polymorphisms (SNPs) 
