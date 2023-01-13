@@ -82,8 +82,8 @@ perl BS-Snper.pl --fa /path/to/REFfile/REFfile.fa --input /path/to/aligntoREF/BA
 ```
 bash 1_Detect_DMRs.sh file1 file2
 ```
-file1: The output of methratio.py for sampleX
-file2: The output of methratio.py for another sample
+file1: The output of methratio.py for sampleX  
+file2: The output of methratio.py for another sample  
 Users need to pay attention to the file name and path when running the code.
 
 ### The visualization of DNA methylation level
