@@ -80,14 +80,18 @@ perl BS-Snper.pl --fa /path/to/REFfile/REFfile.fa --input /path/to/aligntoREF/BA
 
 ### Detect DMRs between different samples
 ```
-bash 1_Detect_DMRs.sh
+bash 1_Detect_DMRs.sh file1 file2
 ```
-Users need to pay attention to the file name when running the code.
+file1: The output of methratio.py for sampleX
+file2: The output of methratio.py for another sample
+Users need to pay attention to the file name and path when running the code.
 
 ### The visualization of DNA methylation level
 ```
-bash 2_MethOverRegion.sh
+bash 2_MethOverRegion.sh file1
 ```
+file1: The output of methratio.py for sampleX
+
 The metagene plot drawn in R language.
 ```
 Rscript 3_Metagene_plot.R
