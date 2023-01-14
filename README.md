@@ -67,6 +67,7 @@ bamUtil/bin/bam clipOverlap --in /path/to/aligntoREF/BAM/SampleX_sorted_MarkDup_
 ```
 /bsmap-2.90/methratio.py -o /path/to/aligntoREF/BSMAPratio/SampleX -d /path/to/REFfile/REFfile.fa -u -z -r /path/to/aligntoREF/BAM/SampleX_sorted_MarkDup_paired_clipOverlap.bam
 ```
+Python2 and samtools in version with the -X parameter of samtools view are needed.
 
 ### Calculate the conversion efficiency of unmethylated cytosine
 ```
