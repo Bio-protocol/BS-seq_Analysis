@@ -4,13 +4,7 @@
 SampleX=$1
 SampleY=$2
 
-cd /path/to/aligntoREF/DMRs
-
-bedtools makewindows -g /path/to/REFfile/chrom.sizes -w 100 > REFfile_w100.bed
-
 #The next 3 steps are same between samples.
-awk 'NR>1{print $1"\t"$2-1"\t"$2"\t"$3"\t"$4"\t"$7"\t"$8}' /path/to/aligntoREF/BSMAPratio/${SampleX} > ${SampleX}.bed
-awk 'NR>1{print $1"\t"$2-1"\t"$2"\t"$3"\t"$4"\t"$7"\t"$8}' /path/to/aligntoREF/BSMAPratio/${SampleY} > ${SampleY}.bed
 
 bedtools intersect -a REFfile_w100.bed -b ${SampleX}.bed -wa -wb > ${SampleX}_w100.bed
 bedtools intersect -a REFfile_w100.bed -b ${SampleY}.bed -wa -wb > ${SampleY}_w100.bed
