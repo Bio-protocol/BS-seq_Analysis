@@ -32,6 +32,7 @@ wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/SRR850332/SRR850332_2.fastq.gz
 ### Download reference genome sequence
 ```
 wget http://ftp.ensemblgenomes.org/pub/plants/release-45/fasta/zea_mays/dna/Zea_mays.B73_RefGen_v4.dna.toplevel.fa.gz
+gzip -d Zea_mays.B73_RefGen_v4.dna.toplevel.fa.gz
 ```
 
 ## Major Steps
@@ -81,17 +82,25 @@ perl BS-Snper.pl --fa /path/to/REFfile/REFfile.fa --input /path/to/aligntoREF/BA
 
 ### Detect DMRs between different samples
 ```
-bash 1_Detect_DMRs.sh file1 file2
+cd /path/to/aligntoREF/DMRs
+
+bedtools makewindows -g /path/to/REFfile/chrom.sizes -w 100 > REFfile_w100.bed
+
+awk 'NR>1{print $1"\t"$2-1"\t"$2"\t"$3"\t"$4"\t"$7"\t"$8}' /path/to/aligntoREF/BSMAPratio/SampleX > SampleX.bed
+awk 'NR>1{print $1"\t"$2-1"\t"$2"\t"$3"\t"$4"\t"$7"\t"$8}' /path/to/aligntoREF/BSMAPratio/SampleY > SampleY.bed
+
+bash 1_Detect_DMRs.sh SampleX SampleY
 ```
-file1: The output of methratio.py for sampleX  
-file2: The output of methratio.py for another sample  
-Users need to pay attention to the file name and path when running the code.
+SampleY is another dataset used to detect the DNA methylation difference
 
 ### The visualization of DNA methylation level
 ```
-bash 2_MethOverRegion.sh file1
+cd /path/to/aligntoREF/ViewBS
+
+awk '{if($1!="chr") print $1"\t"$2"\t"$3"\t"$7"\t"$8-$7"\t"$4"\t"$4}' /path/to/aligntoREF/BSMAPratio/SampleX > SampleX_forViewBS.tab
+
+bash 2_MethOverRegion.sh SampleX /path/to/REFfile/target_gene.bed
 ```
-file1: The output of methratio.py for sampleX
 
 The metagene plot drawn in R language.
 ```
