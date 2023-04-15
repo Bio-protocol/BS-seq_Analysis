@@ -107,7 +107,7 @@ The metagene plot drawn in R language.
 ```
 cd /path/to/aligntoREF/ViewBS
 
-Rscript 3_Metagene_plot.R SampleX_target_gene_MethOverRegion_CG.txt SampleX_target_gene_MethOverRegion_CHG.txt SampleX_target_gene_MethOverRegion_CHH.txt
+Rscript 3_Metagene_plot.R ./MethOverRegion/SampleX_target_gene_MethOverRegion_CG.txt ./MethOverRegion/SampleX_target_gene_MethOverRegion_CHG.txt ./MethOverRegion/SampleX_target_gene_MethOverRegion_CHH.txt
 ```
 ## Expected results
 ![Rplot04](https://user-images.githubusercontent.com/108569109/178265151-8ca83c79-3a01-4f68-bc26-e9bc4266ed4d.png)
