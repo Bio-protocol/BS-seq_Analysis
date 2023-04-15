@@ -1,9 +1,11 @@
 library(ggplot2)
 
 ##Read the data
-cg<-read.table("6_B73_BSMAP_MethOverRegion_CG.txt",header=T)
-chg<-read.table("6_B73_BSMAP_MethOverRegion_CHG.txt",header=T)
-chh<-read.table("6_B73_BSMAP_MethOverRegion_CHH.txt",header=T)
+args <- commandArgs(T)
+
+cg<-read.table(file=args[1],header=T)
+chg<-read.table(file=args[2],header=T)
+chh<-read.table(file=args[3],header=T)
 
 data<-rbind(cg,chg,chh)
 
