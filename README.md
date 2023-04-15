@@ -92,6 +92,7 @@ awk 'NR>1{print $1"\t"$2-1"\t"$2"\t"$3"\t"$4"\t"$7"\t"$8}' /path/to/aligntoREF/B
 bash 1_Detect_DMRs.sh SampleX SampleY
 ```
 SampleY is another dataset used to detect the DNA methylation difference
+Files can be split by chromosome, if there is not enough memory
 
 ### The visualization of DNA methylation level
 ```
