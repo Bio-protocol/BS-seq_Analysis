@@ -18,6 +18,8 @@ Users should first install the following software.
 7.	bedtools (https://bedtools.readthedocs.io/en/latest/)
 8.	ViewBS (Huang et al., 2018; https://github.com/xie186/ViewBS)
 
+The software that has been used in this protocol can be downloaded from the links. Detailed installation instructions can also be found on the links or in the README.txt file of the respective software.
+
 ## Reference data
 ### Download raw data of B73 inbred line
 ```
