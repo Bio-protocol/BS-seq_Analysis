@@ -38,12 +38,12 @@ gzip -d Zea_mays.B73_RefGen_v4.dna.toplevel.fa.gz
 ## Major Steps
 ### Perform quality control analysis for sequencing data
 ```
-trim_galore --phred33 --fastqc --fastqc_args "--noextract --outdir /path/to/rawdata/fastqc/" -o /path/to/rawdata/trimgalore/ --paired /path/to/rawdata/fastq/SampleX_R1.fq.gz /path/to/rawdata/fastq/SampleX_R2.fq.gz
+trim_galore --phred33 --fastqc --fastqc_args "--noextract --outdir /path/to/rawdata/fastqc/" -o /path/to/rawdata/trimgalore/ --paired /path/to/rawdata/fastq/SampleX_1.fastq.gz /path/to/rawdata/fastq/SampleX_2.fastq.gz
 ```
 
 ### Align reads to reference genome
 ```
-bsmap -a /path/to/rawdata/trimgalore/SampleX_R1_val_1.fq.gz -b /path/to/rawdata/trimgalore/SampleX_R2_val_2.fq.gz -d /path/to/REFfile/REFfile.fa -o /path/to/aligntoREF/BAM/SampleX.bam -v 5 -r 0 -p 8 -q 20 -A AGATCGGAAGAGCGGTTCAGCAGGAATGCCG
+bsmap -a /path/to/rawdata/trimgalore/SampleX_1_val_1.fq.gz -b /path/to/rawdata/trimgalore/SampleX_2_val_2.fq.gz -d /path/to/REFfile/REFfile.fa -o /path/to/aligntoREF/BAM/SampleX.bam -v 5 -r 0 -p 8 -q 20 -A AGATCGGAAGAGCGGTTCAGCAGGAATGCCG
 ```
 Adapter sequence according to each sample.
 
@@ -104,7 +104,9 @@ bash 2_MethOverRegion.sh SampleX /path/to/REFfile/target_gene.bed
 
 The metagene plot drawn in R language.
 ```
-Rscript 3_Metagene_plot.R
+cd /path/to/aligntoREF/ViewBS
+
+Rscript 3_Metagene_plot.R SampleX_target_gene_MethOverRegion_CG.txt SampleX_target_gene_MethOverRegion_CHG.txt SampleX_target_gene_MethOverRegion_CHH.txt
 ```
 ## Expected results
 ![Rplot04](https://user-images.githubusercontent.com/108569109/178265151-8ca83c79-3a01-4f68-bc26-e9bc4266ed4d.png)
